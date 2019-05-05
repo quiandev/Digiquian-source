@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/digiquian_bg.qm</file>
+        <file alias="de">locale/digiquian_de.qm</file>
+        <file alias="en">locale/digiquian_en.qm</file>
+        <file alias="es">locale/digiquian_es.qm</file>
+        <file alias="fi">locale/digiquian_fi.qm</file>
+        <file alias="fr">locale/digiquian_fr.qm</file>
+        <file alias="it">locale/digiquian_it.qm</file>
+        <file alias="ja">locale/digiquian_ja.qm</file>
+        <file alias="nl">locale/digiquian_nl.qm</file>
+        <file alias="pl">locale/digiquian_pl.qm</file>
+        <file alias="pt">locale/digiquian_pt.qm</file>
+        <file alias="ru">locale/digiquian_ru.qm</file>
+        <file alias="sk">locale/digiquian_sk.qm</file>
+        <file alias="sv">locale/digiquian_sv.qm</file>
+        <file alias="vi">locale/digiquian_vi.qm</file>
+        <file alias="zh_CN">locale/digiquian_zh_CN.qm</file>
+        <file alias="zh_TW">locale/digiquian_zh_TW.qm</file>
+    </qresource>
+</RCC>

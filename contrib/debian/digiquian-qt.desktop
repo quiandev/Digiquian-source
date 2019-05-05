@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=digiquian Core
+Comment=digiquian P2P Cryptocurrency
+Comment[de]=Verbinde mit dem digiquian peer-to-peer Netzwerk
+Comment[fr]=digiquian, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=digiquian, eşten eşe kriptografik sanal para birimi
+Exec=digiquian-qt %u
+Terminal=false
+Type=Application
+Icon=digiquian128
+MimeType=x-scheme-handler/digiquian;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/digiquian-qt usr/bin
+share/pixmaps/digiquian32.xpm usr/share/pixmaps
+share/pixmaps/digiquian16.xpm usr/share/pixmaps
+share/pixmaps/digiquian128.png usr/share/pixmaps
+debian/digiquian-qt.desktop usr/share/applications
+debian/digiquian-qt.protocol usr/share/kde4/services/

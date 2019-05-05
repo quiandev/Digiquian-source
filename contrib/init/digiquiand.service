@@ -1,0 +1,22 @@
+[Unit]
+Description=digiquian's distributed currency daemon
+After=network.target
+
+[Service]
+User=digiquiancore
+Group=digiquiancore
+
+Type=forking
+PIDFile=/var/lib/digiquiand/digiquiand.pid
+ExecStart=/usr/bin/digiquiand -daemon -pid=/var/lib/digiquiand/digiquiand.pid \
+-conf=/etc/digiquiancore/digiquian.conf -datadir=/var/lib/digiquiand -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
